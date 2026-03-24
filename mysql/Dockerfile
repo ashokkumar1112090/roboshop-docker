@@ -3,7 +3,7 @@
 # COPY db/ /docker-entrypoint-initdb.d
 
 
-Created as part of K8 init containers
+# Created as part of K8 init containers
 FROM mysql:8.0
 COPY db/ /docker-entrypoint-initdb.d
 COPY custom-script.sh /usr/local/bin/custom-script.sh
