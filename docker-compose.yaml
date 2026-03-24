@@ -20,8 +20,8 @@ services:
     - redis:/data
   mysql:
     build: ./mysql
-    image: mysql:v1
-    container_name: ashokdevops123/mysql
+    image: ashokdevops123/mysql:v1
+    container_name: mysql
     volumes:
     - mysql:/var/lib/mysql
   rabbitmq:
